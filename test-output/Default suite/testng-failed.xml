@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="automotation.Login">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- automotation.Login -->
+      <class name="automotation.DensityCalculator">
+        <methods>
+          <include name="densityCalculate" invocation-numbers="0 1"/>
+          <include name="beforeMethod"/>
+          <include name="M1"/>
+        </methods>
+      </class> <!-- automotation.DensityCalculator -->
+      <class name="automotation.MassCalculator">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="M1"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- automotation.MassCalculator -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

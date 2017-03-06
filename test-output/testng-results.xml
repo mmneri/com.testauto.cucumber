@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="24" total="34" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First suite" duration-ms="102804" started-at="2017-03-06T01:14:10Z" finished-at="2017-03-06T01:15:53Z">
+    <groups>
+    </groups>
+    <test name="First test Chrome" duration-ms="58222" started-at="2017-03-06T01:14:10Z" finished-at="2017-03-06T01:15:08Z">
+      <class name="automotation.Logout">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:automotation.Logout@271053e1]" name="quitBrowser" duration-ms="1" started-at="2017-03-06T02:15:06Z" finished-at="2017-03-06T02:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- automotation.Logout -->
+      <class name="automotation.MassCalculator">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automotation.MassCalculator@553f17c]" name="beforeMethod" is-config="true" duration-ms="12651" started-at="2017-03-06T02:14:41Z" finished-at="2017-03-06T02:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="M1()[pri:0, instance:automotation.MassCalculator@553f17c]" name="M1" is-config="true" duration-ms="0" started-at="2017-03-06T02:14:41Z" finished-at="2017-03-06T02:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1 -->
+        <test-method status="PASS" signature="massCalculate()[pri:0, instance:automotation.MassCalculator@553f17c]" name="massCalculate" duration-ms="4873" started-at="2017-03-06T02:14:54Z" finished-at="2017-03-06T02:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- massCalculate -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automotation.MassCalculator@553f17c]" name="AfterMethod" is-config="true" duration-ms="5" started-at="2017-03-06T02:14:58Z" finished-at="2017-03-06T02:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- automotation.MassCalculator -->
+      <class name="automotation.Login">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:automotation.Login@5f341870]" name="initialiseBrowser" is-config="true" duration-ms="30998" started-at="2017-03-06T02:14:10Z" finished-at="2017-03-06T02:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:automotation.Login@5f341870]" name="openBrowser" duration-ms="11" started-at="2017-03-06T02:14:41Z" finished-at="2017-03-06T02:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automotation.Login@5f341870]" name="closeBrowser" is-config="true" duration-ms="2139" started-at="2017-03-06T02:15:06Z" finished-at="2017-03-06T02:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automotation.Login -->
+      <class name="automotation.DensityCalculator">
+        <test-method status="PASS" signature="M1()[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="M1" is-config="true" duration-ms="1" started-at="2017-03-06T02:14:58Z" finished-at="2017-03-06T02:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="911" started-at="2017-03-06T02:14:59Z" finished-at="2017-03-06T02:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="densityCalculate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="densityCalculate" duration-ms="2059" started-at="2017-03-06T02:14:59Z" data-provider="densityData" finished-at="2017-03-06T02:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kilogram/cubic centimeter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cubic foot]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[kilogram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2265344000 kilogram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- densityCalculate -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-03-06T02:15:02Z" finished-at="2017-03-06T02:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="890" started-at="2017-03-06T02:15:02Z" finished-at="2017-03-06T02:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="densityCalculate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="densityCalculate" duration-ms="3555" started-at="2017-03-06T02:15:02Z" data-provider="densityData" finished-at="2017-03-06T02:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kilogram/cubic centimeter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cubic foot]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[gram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2265344000 kilogram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- densityCalculate -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automotation.DensityCalculator@4f7d0008]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-03-06T02:15:06Z" finished-at="2017-03-06T02:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- automotation.DensityCalculator -->
+    </test> <!-- First test Chrome -->
+    <test name="First test Firefox" duration-ms="44489" started-at="2017-03-06T01:15:08Z" finished-at="2017-03-06T01:15:53Z">
+      <class name="automotation.Logout">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:automotation.Logout@ff5b51f]" name="quitBrowser" duration-ms="2" started-at="2017-03-06T02:15:51Z" finished-at="2017-03-06T02:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- automotation.Logout -->
+      <class name="automotation.Login">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:automotation.Login@56ef9176]" name="BeforeSuite" is-config="true" duration-ms="498" started-at="2017-03-06T02:14:09Z" finished-at="2017-03-06T02:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:automotation.Login@56ef9176]" name="initialiseBrowser" is-config="true" duration-ms="19030" started-at="2017-03-06T02:15:08Z" finished-at="2017-03-06T02:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:automotation.Login@56ef9176]" name="openBrowser" duration-ms="1" started-at="2017-03-06T02:15:27Z" finished-at="2017-03-06T02:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automotation.Login@56ef9176]" name="closeBrowser" is-config="true" duration-ms="1659" started-at="2017-03-06T02:15:51Z" finished-at="2017-03-06T02:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="AftereSuite()[pri:0, instance:automotation.Login@56ef9176]" name="AftereSuite" is-config="true" duration-ms="577" started-at="2017-03-06T02:15:53Z" finished-at="2017-03-06T02:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftereSuite -->
+      </class> <!-- automotation.Login -->
+      <class name="automotation.MassCalculator">
+        <test-method status="PASS" signature="M1()[pri:0, instance:automotation.MassCalculator@4566e5bd]" name="M1" is-config="true" duration-ms="1" started-at="2017-03-06T02:15:27Z" finished-at="2017-03-06T02:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automotation.MassCalculator@4566e5bd]" name="beforeMethod" is-config="true" duration-ms="9887" started-at="2017-03-06T02:15:27Z" finished-at="2017-03-06T02:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="massCalculate()[pri:0, instance:automotation.MassCalculator@4566e5bd]" name="massCalculate" duration-ms="2751" started-at="2017-03-06T02:15:37Z" finished-at="2017-03-06T02:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- massCalculate -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automotation.MassCalculator@4566e5bd]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-03-06T02:15:40Z" finished-at="2017-03-06T02:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- automotation.MassCalculator -->
+      <class name="automotation.DensityCalculator">
+        <test-method status="PASS" signature="M1()[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="M1" is-config="true" duration-ms="1" started-at="2017-03-06T02:15:40Z" finished-at="2017-03-06T02:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="beforeMethod" is-config="true" duration-ms="4386" started-at="2017-03-06T02:15:40Z" finished-at="2017-03-06T02:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="densityCalculate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="densityCalculate" duration-ms="3911" started-at="2017-03-06T02:15:44Z" data-provider="densityData" finished-at="2017-03-06T02:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kilogram/cubic centimeter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cubic foot]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[kilogram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2265344000 kilogram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- densityCalculate -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="beforeMethod" is-config="true" duration-ms="1609" started-at="2017-03-06T02:15:48Z" finished-at="2017-03-06T02:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-03-06T02:15:48Z" finished-at="2017-03-06T02:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="densityCalculate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="densityCalculate" duration-ms="1193" started-at="2017-03-06T02:15:50Z" data-provider="densityData" finished-at="2017-03-06T02:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kilogram/cubic centimeter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cubic foot]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[gram]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2265344000 kilogram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- densityCalculate -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automotation.DensityCalculator@1ed4004b]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-03-06T02:15:51Z" finished-at="2017-03-06T02:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- automotation.DensityCalculator -->
+    </test> <!-- First test Firefox -->
+  </suite> <!-- First suite -->
+</testng-results>

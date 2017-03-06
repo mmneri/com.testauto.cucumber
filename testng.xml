@@ -1,0 +1,21 @@
+<suite name="First suite" parallel="false">
+	<test name="First test Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="automotation.Login"/>
+			<class name="automotation.MassCalculator"/>
+			<class name="automotation.DensityCalculator"/>
+			<class name="automotation.Logout"/>
+		</classes>
+	</test>
+	<!-- First test FirefoxTest-->
+	<test name="First test Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="automotation.Login"/>
+			<class name="automotation.MassCalculator"/>
+			<class name="automotation.DensityCalculator"/>
+			<class name="automotation.Logout"/>
+		</classes>
+	</test>
+</suite>
