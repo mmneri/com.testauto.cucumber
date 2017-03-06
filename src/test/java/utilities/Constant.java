@@ -13,12 +13,12 @@ public class Constant {
 	public static final String firefox_webdriver_path = "D:\\Selenium\\geckodriver.exe";
 	
 	//Excel Data Driven
-	public static final String Path_TestData = "C:\\Users\\Maram\\workspace\\com.testauto.cucumber\\src\\test\\resources\\dataDrivenFiles\\";
+	public static final String Path_TestData = "D:\\Test\\com.testauto.cucumber\\src\\test\\resources\\dataDrivenFiles\\";
 	public static final String File_TestData = "TestData.xlsx";
 	public static final String Mass_Sheet = "massCalculator";
 	public static final String Density_Sheet = "densityCalculator";
 	
 	//Screen Shot Path
-	public static final String Path_extentreports = "C:\\Users\\Maram\\workspace\\com.testauto.cucumber\\src\\extent-reports\\";
+	public static final String Path_extentreports = "D:\\Test\\com.testauto.cucumber\\src\\extent-reports\\";
 	public static final String Image_extentreports_folder = "images";
 }
